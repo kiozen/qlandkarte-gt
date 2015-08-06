@@ -1,6 +1,8 @@
+# NOTE: QLandkarte GT development came to an end. The future is [QMapShack](https://bitbucket.org/maproom/qmapshack/wiki/Home)#
 
+## Compile Instructions ##
 
-You need a working mercurial, g++, cmake and QT4 installation to compile QLankdarte GT on your computer. Clone and compile the code base by::
+You need a working mercurial, g++, cmake and QT4 installation to compile QLandkarte GT on your computer. Clone and compile the code base by::
 
     hg clone https://bitbucket.org/kiozen/qlandkarte-gt QLandkarteGT
     mkdir build_QLandkarteGT
