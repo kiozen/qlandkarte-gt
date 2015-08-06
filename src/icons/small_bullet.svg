@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="40"
+   height="40"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.47 r22583"
+   version="1.0"
+   sodipodi:docname="small_bullet.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   inkscape:export-filename="/home/oeichler/Documents/cpp/QLandkarteGT/src/icons/small_bullet_blue.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+    <filter
+       inkscape:collect="always"
+       id="filter3282">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.0097154131"
+         id="feGaussianBlur3284" />
+    </filter>
+    <inkscape:perspective
+       id="perspective2997"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="22.025"
+     inkscape:cx="2.8962878"
+     inkscape:cy="-1.4607159"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:snap-global="true"
+     gridtolerance="10000"
+     guidetolerance="10000"
+     objecttolerance="10000"
+     inkscape:object-paths="true"
+     inkscape:window-width="2560"
+     inkscape:window-height="1510"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2383"
+       visible="true"
+       enabled="true" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g3298"
+       inkscape:export-filename="/home/oeichler/Documents/cpp/QLandkarteGT/src/icons/small_bullet_darkyellow.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="matrix(3.5466667,0,0,3.6592592,24.866666,-5.3703699)"
+         d="M 3.4210526,2.424089 A 0.9868421,0.95647776 0 1 1 1.4473684,2.424089 A 0.9868421,0.95647776 0 1 1 3.4210526,2.424089 z"
+         sodipodi:ry="0.95647776"
+         sodipodi:rx="0.9868421"
+         sodipodi:cy="2.424089"
+         sodipodi:cx="2.4342105"
+         id="path2400"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.25100005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.64379949"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(2.5333334,0,0,2.6137565,27.333333,-2.8359783)"
+         d="M 3.4210526,2.424089 A 0.9868421,0.95647776 0 1 1 1.4473684,2.424089 A 0.9868421,0.95647776 0 1 1 3.4210526,2.424089 z"
+         sodipodi:ry="0.95647776"
+         sodipodi:rx="0.9868421"
+         sodipodi:cy="2.424089"
+         sodipodi:cx="2.4342105"
+         id="path2402"
+         style="fill:#808000;fill-opacity:1;stroke:none;stroke-width:1.25100005000000003;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.64379949000000003"
+         sodipodi:type="arc" />
+    </g>
+    <g
+       id="g3286"
+       inkscape:export-filename="/home/oeichler/Documents/cpp/QLandkarteGT/src/icons/small_bullet_black.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="matrix(3.5466667,0,0,3.6592592,-5.1333335,-5.3703699)"
+         d="M 3.4210526,2.424089 A 0.9868421,0.95647776 0 1 1 1.4473684,2.424089 A 0.9868421,0.95647776 0 1 1 3.4210526,2.424089 z"
+         sodipodi:ry="0.95647776"
+         sodipodi:rx="0.9868421"
+         sodipodi:cy="2.424089"
+         sodipodi:cx="2.4342105"
+         id="path3179"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.25100005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.64379949"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(2.5333334,0,0,2.6137565,-2.6666669,-2.8359783)"
+         d="M 3.4210526,2.424089 A 0.9868421,0.95647776 0 1 1 1.4473684,2.424089 A 0.9868421,0.95647776 0 1 1 3.4210526,2.424089 z"
+         sodipodi:ry="0.95647776"
+         sodipodi:rx="0.9868421"
+         sodipodi:cy="2.424089"
+         sodipodi:cx="2.4342105"
+         id="path2385"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.25100005000000003;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.64379949000000003"
+         sodipodi:type="arc" />
+    </g>
+    <g
+       id="g3290"
+       inkscape:export-filename="/home/oeichler/Documents/cpp/QLandkarteGT/src/icons/small_bullet_darkred.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="matrix(3.5466667,0,0,3.6592592,4.8666665,-5.3703699)"
+         d="M 3.4210526,2.424089 A 0.9868421,0.95647776 0 1 1 1.4473684,2.424089 A 0.9868421,0.95647776 0 1 1 3.4210526,2.424089 z"
+         sodipodi:ry="0.95647776"
+         sodipodi:rx="0.9868421"
+         sodipodi:cy="2.424089"
+         sodipodi:cx="2.4342105"
+         id="path2388"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.25100005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.64379949"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(2.5333334,0,0,2.6137565,7.3333331,-2.8359783)"
+         d="M 3.4210526,2.424089 A 0.9868421,0.95647776 0 1 1 1.4473684,2.424089 A 0.9868421,0.95647776 0 1 1 3.4210526,2.424089 z"
+         sodipodi:ry="0.95647776"
+         sodipodi:rx="0.9868421"
+         sodipodi:cy="2.424089"
+         sodipodi:cx="2.4342105"
+         id="path2390"
+         style="fill:#800000;fill-opacity:1;stroke:none;stroke-width:1.25100005000000003;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.64379949000000003"
+         sodipodi:type="arc" />
+    </g>
+    <g
+       id="g3294"
+       inkscape:export-filename="/home/oeichler/Documents/cpp/QLandkarteGT/src/icons/small_bullet_darkgreen.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="matrix(3.5466667,0,0,3.6592592,14.866667,-5.3703699)"
+         d="M 3.4210526,2.424089 A 0.9868421,0.95647776 0 1 1 1.4473684,2.424089 A 0.9868421,0.95647776 0 1 1 3.4210526,2.424089 z"
+         sodipodi:ry="0.95647776"
+         sodipodi:rx="0.9868421"
+         sodipodi:cy="2.424089"
+         sodipodi:cx="2.4342105"
+         id="path2394"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.25100005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.64379949"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(2.5333334,0,0,2.6137565,17.333333,-2.8359783)"
+         d="M 3.4210526,2.424089 A 0.9868421,0.95647776 0 1 1 1.4473684,2.424089 A 0.9868421,0.95647776 0 1 1 3.4210526,2.424089 z"
+         sodipodi:ry="0.95647776"
+         sodipodi:rx="0.9868421"
+         sodipodi:cy="2.424089"
+         sodipodi:cx="2.4342105"
+         id="path2396"
+         style="fill:#008000;fill-opacity:1;stroke:none;stroke-width:1.25100005000000003;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.64379949000000003"
+         sodipodi:type="arc" />
+    </g>
+    <g
+       id="g3302"
+       inkscape:export-filename="/home/oeichler/Documents/cpp/QLandkarteGT/src/icons/small_bullet_darkblue.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="matrix(3.5466667,0,0,3.6592592,-5.1333335,4.6296301)"
+         d="M 3.4210526,2.424089 A 0.9868421,0.95647776 0 1 1 1.4473684,2.424089 A 0.9868421,0.95647776 0 1 1 3.4210526,2.424089 z"
+         sodipodi:ry="0.95647776"
+         sodipodi:rx="0.9868421"
+         sodipodi:cy="2.424089"
+         sodipodi:cx="2.4342105"
+         id="path2406"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.25100005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.64379949"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(2.5333334,0,0,2.6137565,-2.6666669,7.1640217)"
+         d="M 3.4210526,2.424089 A 0.9868421,0.95647776 0 1 1 1.4473684,2.424089 A 0.9868421,0.95647776 0 1 1 3.4210526,2.424089 z"
+         sodipodi:ry="0.95647776"
+         sodipodi:rx="0.9868421"
+         sodipodi:cy="2.424089"
+         sodipodi:cx="2.4342105"
+         id="path2408"
+         style="fill:#000080;fill-opacity:1;stroke:none;stroke-width:1.25100005000000003;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.64379949000000003"
+         sodipodi:type="arc" />
+    </g>
+    <g
+       id="g3306"
+       inkscape:export-filename="/home/oeichler/Documents/cpp/QLandkarteGT/src/icons/small_bullet_gray.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="matrix(3.5466667,0,0,3.6592592,4.8666665,4.6296301)"
+         d="M 3.4210526,2.424089 A 0.9868421,0.95647776 0 1 1 1.4473684,2.424089 A 0.9868421,0.95647776 0 1 1 3.4210526,2.424089 z"
+         sodipodi:ry="0.95647776"
+         sodipodi:rx="0.9868421"
+         sodipodi:cy="2.424089"
+         sodipodi:cx="2.4342105"
+         id="path2412"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.25100005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.64379949"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(2.5333334,0,0,2.6137565,7.3333331,7.1640217)"
+         d="M 3.4210526,2.424089 A 0.9868421,0.95647776 0 1 1 1.4473684,2.424089 A 0.9868421,0.95647776 0 1 1 3.4210526,2.424089 z"
+         sodipodi:ry="0.95647776"
+         sodipodi:rx="0.9868421"
+         sodipodi:cy="2.424089"
+         sodipodi:cx="2.4342105"
+         id="path2414"
+         style="fill:#e0e0e0;fill-opacity:1;stroke:none;stroke-width:1.25100005000000003;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.64379949000000003"
+         sodipodi:type="arc" />
+    </g>
+    <g
+       id="g3310"
+       inkscape:export-filename="/home/oeichler/Documents/cpp/QLandkarteGT/src/icons/small_bullet_darkgray.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="matrix(3.5466667,0,0,3.6592592,14.866667,4.6296301)"
+         d="M 3.4210526,2.424089 A 0.9868421,0.95647776 0 1 1 1.4473684,2.424089 A 0.9868421,0.95647776 0 1 1 3.4210526,2.424089 z"
+         sodipodi:ry="0.95647776"
+         sodipodi:rx="0.9868421"
+         sodipodi:cy="2.424089"
+         sodipodi:cx="2.4342105"
+         id="path2418"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.25100005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.64379949"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(2.5333334,0,0,2.6137565,17.333333,7.1640217)"
+         d="M 3.4210526,2.424089 A 0.9868421,0.95647776 0 1 1 1.4473684,2.424089 A 0.9868421,0.95647776 0 1 1 3.4210526,2.424089 z"
+         sodipodi:ry="0.95647776"
+         sodipodi:rx="0.9868421"
+         sodipodi:cy="2.424089"
+         sodipodi:cx="2.4342105"
+         id="path2420"
+         style="fill:#808080;fill-opacity:1;stroke:none;stroke-width:1.25100005000000003;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.64379949000000003"
+         sodipodi:type="arc" />
+    </g>
+    <g
+       id="g3314"
+       inkscape:export-filename="/home/oeichler/Documents/cpp/QLandkarteGT/src/icons/small_bullet_red.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="matrix(3.5466667,0,0,3.6592592,24.866666,4.6296301)"
+         d="M 3.4210526,2.424089 A 0.9868421,0.95647776 0 1 1 1.4473684,2.424089 A 0.9868421,0.95647776 0 1 1 3.4210526,2.424089 z"
+         sodipodi:ry="0.95647776"
+         sodipodi:rx="0.9868421"
+         sodipodi:cy="2.424089"
+         sodipodi:cx="2.4342105"
+         id="path2424"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.25100005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.64379949"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(2.5333334,0,0,2.6137565,27.333333,7.1640217)"
+         d="M 3.4210526,2.424089 A 0.9868421,0.95647776 0 1 1 1.4473684,2.424089 A 0.9868421,0.95647776 0 1 1 3.4210526,2.424089 z"
+         sodipodi:ry="0.95647776"
+         sodipodi:rx="0.9868421"
+         sodipodi:cy="2.424089"
+         sodipodi:cx="2.4342105"
+         id="path2426"
+         style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1.25100005000000003;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.64379949000000003;filter:url(#filter3282)"
+         sodipodi:type="arc" />
+    </g>
+    <g
+       id="g3318"
+       inkscape:export-filename="/home/oeichler/Documents/cpp/QLandkarteGT/src/icons/small_bullet_green.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="matrix(3.5466667,0,0,3.6592592,-5.1333335,14.62963)"
+         d="M 3.4210526,2.424089 A 0.9868421,0.95647776 0 1 1 1.4473684,2.424089 A 0.9868421,0.95647776 0 1 1 3.4210526,2.424089 z"
+         sodipodi:ry="0.95647776"
+         sodipodi:rx="0.9868421"
+         sodipodi:cy="2.424089"
+         sodipodi:cx="2.4342105"
+         id="path2430"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.25100005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.64379949"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(2.5333334,0,0,2.6137565,-2.6666669,17.164022)"
+         d="M 3.4210526,2.424089 A 0.9868421,0.95647776 0 1 1 1.4473684,2.424089 A 0.9868421,0.95647776 0 1 1 3.4210526,2.424089 z"
+         sodipodi:ry="0.95647776"
+         sodipodi:rx="0.9868421"
+         sodipodi:cy="2.424089"
+         sodipodi:cx="2.4342105"
+         id="path2432"
+         style="fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:1.25100005000000003;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.64379949000000003"
+         sodipodi:type="arc" />
+    </g>
+    <g
+       id="g3322"
+       inkscape:export-filename="/home/oeichler/Documents/cpp/QLandkarteGT/src/icons/small_bullet_yellow.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="matrix(3.5466667,0,0,3.6592592,4.8666665,14.62963)"
+         d="M 3.4210526,2.424089 A 0.9868421,0.95647776 0 1 1 1.4473684,2.424089 A 0.9868421,0.95647776 0 1 1 3.4210526,2.424089 z"
+         sodipodi:ry="0.95647776"
+         sodipodi:rx="0.9868421"
+         sodipodi:cy="2.424089"
+         sodipodi:cx="2.4342105"
+         id="path2436"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.25100005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.64379949"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(2.5333334,0,0,2.6137565,7.3333331,17.164022)"
+         d="M 3.4210526,2.424089 A 0.9868421,0.95647776 0 1 1 1.4473684,2.424089 A 0.9868421,0.95647776 0 1 1 3.4210526,2.424089 z"
+         sodipodi:ry="0.95647776"
+         sodipodi:rx="0.9868421"
+         sodipodi:cy="2.424089"
+         sodipodi:cx="2.4342105"
+         id="path2438"
+         style="fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:1.25100005000000003;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.64379949000000003"
+         sodipodi:type="arc" />
+    </g>
+    <g
+       id="g3326"
+       inkscape:export-filename="/home/oeichler/Documents/cpp/QLandkarteGT/src/icons/small_bullet_blue.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="matrix(3.5466667,0,0,3.6592592,14.866667,14.62963)"
+         d="M 3.4210526,2.424089 A 0.9868421,0.95647776 0 1 1 1.4473684,2.424089 A 0.9868421,0.95647776 0 1 1 3.4210526,2.424089 z"
+         sodipodi:ry="0.95647776"
+         sodipodi:rx="0.9868421"
+         sodipodi:cy="2.424089"
+         sodipodi:cx="2.4342105"
+         id="path2442"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.25100005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.64379949"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(2.5333334,0,0,2.6137565,17.333333,17.164022)"
+         d="M 3.4210526,2.424089 A 0.9868421,0.95647776 0 1 1 1.4473684,2.424089 A 0.9868421,0.95647776 0 1 1 3.4210526,2.424089 z"
+         sodipodi:ry="0.95647776"
+         sodipodi:rx="0.9868421"
+         sodipodi:cy="2.424089"
+         sodipodi:cx="2.4342105"
+         id="path2444"
+         style="fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:1.25100005000000003;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.64379949000000003"
+         sodipodi:type="arc" />
+    </g>
+    <g
+       id="g3330"
+       inkscape:export-filename="/home/oeichler/Documents/cpp/QLandkarteGT/src/icons/small_bullet_magenta.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="matrix(3.5466667,0,0,3.6592592,24.866666,14.62963)"
+         d="M 3.4210526,2.424089 A 0.9868421,0.95647776 0 1 1 1.4473684,2.424089 A 0.9868421,0.95647776 0 1 1 3.4210526,2.424089 z"
+         sodipodi:ry="0.95647776"
+         sodipodi:rx="0.9868421"
+         sodipodi:cy="2.424089"
+         sodipodi:cx="2.4342105"
+         id="path2448"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.25100005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.64379949"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(2.5333334,0,0,2.6137565,27.333333,17.164022)"
+         d="M 3.4210526,2.424089 A 0.9868421,0.95647776 0 1 1 1.4473684,2.424089 A 0.9868421,0.95647776 0 1 1 3.4210526,2.424089 z"
+         sodipodi:ry="0.95647776"
+         sodipodi:rx="0.9868421"
+         sodipodi:cy="2.424089"
+         sodipodi:cx="2.4342105"
+         id="path2450"
+         style="fill:#ff00ff;fill-opacity:1;stroke:none;stroke-width:1.25100005000000003;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.64379949000000003"
+         sodipodi:type="arc" />
+    </g>
+    <g
+       id="g3334"
+       inkscape:export-filename="/home/oeichler/Documents/cpp/QLandkarteGT/src/icons/small_bullet_cyan.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="matrix(3.5466667,0,0,3.6592592,-5.1333338,24.62963)"
+         d="M 3.4210526,2.424089 A 0.9868421,0.95647776 0 1 1 1.4473684,2.424089 A 0.9868421,0.95647776 0 1 1 3.4210526,2.424089 z"
+         sodipodi:ry="0.95647776"
+         sodipodi:rx="0.9868421"
+         sodipodi:cy="2.424089"
+         sodipodi:cx="2.4342105"
+         id="path2454"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.25100005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.64379949"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(2.5333334,0,0,2.6137565,-2.6666672,27.164022)"
+         d="M 3.4210526,2.424089 A 0.9868421,0.95647776 0 1 1 1.4473684,2.424089 A 0.9868421,0.95647776 0 1 1 3.4210526,2.424089 z"
+         sodipodi:ry="0.95647776"
+         sodipodi:rx="0.9868421"
+         sodipodi:cy="2.424089"
+         sodipodi:cx="2.4342105"
+         id="path2456"
+         style="fill:#00ffff;fill-opacity:1;stroke:none;stroke-width:1.25100005000000003;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.64379949000000003"
+         sodipodi:type="arc" />
+    </g>
+    <g
+       id="g3384"
+       inkscape:export-filename="/home/oeichler/Documents/cpp/QLandkarteGT/src/icons/small_bullet_darkcyan.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="matrix(3.5466667,0,0,3.6592592,4.8666665,24.62963)"
+         d="M 3.4210526,2.424089 A 0.9868421,0.95647776 0 1 1 1.4473684,2.424089 A 0.9868421,0.95647776 0 1 1 3.4210526,2.424089 z"
+         sodipodi:ry="0.95647776"
+         sodipodi:rx="0.9868421"
+         sodipodi:cy="2.424089"
+         sodipodi:cx="2.4342105"
+         id="path2460"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.25100005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.64379949"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(2.5333334,0,0,2.6137565,7.3333331,27.164022)"
+         d="M 3.4210526,2.424089 A 0.9868421,0.95647776 0 1 1 1.4473684,2.424089 A 0.9868421,0.95647776 0 1 1 3.4210526,2.424089 z"
+         sodipodi:ry="0.95647776"
+         sodipodi:rx="0.9868421"
+         sodipodi:cy="2.424089"
+         sodipodi:cx="2.4342105"
+         id="path2462"
+         style="fill:#008080;fill-opacity:1;stroke:none;stroke-width:1.25100005000000003;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.64379949000000003"
+         sodipodi:type="arc" />
+    </g>
+    <g
+       id="g3342"
+       inkscape:export-filename="/home/oeichler/Documents/cpp/QLandkarteGT/src/icons/small_bullet_white.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="matrix(3.5466667,0,0,3.6592592,14.866667,24.62963)"
+         d="M 3.4210526,2.424089 A 0.9868421,0.95647776 0 1 1 1.4473684,2.424089 A 0.9868421,0.95647776 0 1 1 3.4210526,2.424089 z"
+         sodipodi:ry="0.95647776"
+         sodipodi:rx="0.9868421"
+         sodipodi:cy="2.424089"
+         sodipodi:cx="2.4342105"
+         id="path2466"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.25100005000000003;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.64379949000000003"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(2.5333334,0,0,2.6137565,17.333333,27.164022)"
+         d="M 3.4210526,2.424089 A 0.9868421,0.95647776 0 1 1 1.4473684,2.424089 A 0.9868421,0.95647776 0 1 1 3.4210526,2.424089 z"
+         sodipodi:ry="0.95647776"
+         sodipodi:rx="0.9868421"
+         sodipodi:cy="2.424089"
+         sodipodi:cx="2.4342105"
+         id="path2468"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.25100005000000003;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.64379949000000003"
+         sodipodi:type="arc" />
+    </g>
+    <g
+       id="g3380"
+       inkscape:export-filename="/home/oeichler/Documents/cpp/QLandkarteGT/src/icons/small_bullet_darkmagenta.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="matrix(3.5466667,0,0,3.6592592,24.866667,24.62963)"
+         d="M 3.4210526,2.424089 A 0.9868421,0.95647776 0 1 1 1.4473684,2.424089 A 0.9868421,0.95647776 0 1 1 3.4210526,2.424089 z"
+         sodipodi:ry="0.95647776"
+         sodipodi:rx="0.9868421"
+         sodipodi:cy="2.424089"
+         sodipodi:cx="2.4342105"
+         id="path3376"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.25100005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.64379949"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(2.5333334,0,0,2.6137565,27.333334,27.164022)"
+         d="M 3.4210526,2.424089 A 0.9868421,0.95647776 0 1 1 1.4473684,2.424089 A 0.9868421,0.95647776 0 1 1 3.4210526,2.424089 z"
+         sodipodi:ry="0.95647776"
+         sodipodi:rx="0.9868421"
+         sodipodi:cy="2.424089"
+         sodipodi:cx="2.4342105"
+         id="path3378"
+         style="fill:#800080;fill-opacity:1;stroke:none;stroke-width:1.25100005000000003;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.64379949000000003"
+         sodipodi:type="arc" />
+    </g>
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="path2454-9"
+       sodipodi:cx="2.4342105"
+       sodipodi:cy="2.424089"
+       sodipodi:rx="0.9868421"
+       sodipodi:ry="0.95647776"
+       d="m 3.4210526,2.424089 a 0.9868421,0.95647776 0 1 1 -1.9736842,0 0.9868421,0.95647776 0 1 1 1.9736842,0 z"
+       transform="matrix(3.5466667,0,0,3.6592592,-5.0900264,33.62963)"
+       inkscape:export-filename="/home/oeichler/dateien/cpp/QLandkarteGT/src/icons/small_bullet_orange.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffbb00;fill-opacity:1;stroke:none"
+       id="path2456-2"
+       sodipodi:cx="2.4342105"
+       sodipodi:cy="2.424089"
+       sodipodi:rx="0.9868421"
+       sodipodi:ry="0.95647776"
+       d="m 3.4210526,2.424089 a 0.9868421,0.95647776 0 1 1 -1.9736842,0 0.9868421,0.95647776 0 1 1 1.9736842,0 z"
+       transform="matrix(2.5333334,0,0,2.6137565,-2.6233598,36.164022)"
+       inkscape:export-filename="/home/oeichler/dateien/cpp/QLandkarteGT/src/icons/small_bullet_orange.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+  </g>
+</svg>

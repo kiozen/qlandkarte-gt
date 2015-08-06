@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="9"
+   height="9"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   version="1.0"
+   sodipodi:docname="small_bullet_yellow.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   inkscape:export-filename="/home/oeichler/Documents/cpp/QLandkarteGT/src/icons/small_bullet_yellow.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="98.8"
+     inkscape:cx="4.3925187"
+     inkscape:cy="4.5242915"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:snap-global="true"
+     gridtolerance="10000"
+     guidetolerance="10000"
+     objecttolerance="10000"
+     inkscape:object-paths="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1115"
+     inkscape:window-x="0"
+     inkscape:window-y="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2383"
+       visible="true"
+       enabled="true" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       sodipodi:type="arc"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.25100005000000003;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.64379949000000003"
+       id="path2382"
+       sodipodi:cx="2.4342105"
+       sodipodi:cy="2.424089"
+       sodipodi:rx="0.9868421"
+       sodipodi:ry="0.95647776"
+       d="M 3.4210526,2.424089 A 0.9868421,0.95647776 0 1 1 1.4473684,2.424089 A 0.9868421,0.95647776 0 1 1 3.4210526,2.424089 z"
+       transform="matrix(4.5568547,0,0,4.7047589,-6.5892396,-6.9047515)" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.25100005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.64379949"
+       id="path3179"
+       sodipodi:cx="2.4342105"
+       sodipodi:cy="2.424089"
+       sodipodi:rx="0.9868421"
+       sodipodi:ry="0.95647776"
+       d="M 3.4210526,2.424089 A 0.9868421,0.95647776 0 1 1 1.4473684,2.424089 A 0.9868421,0.95647776 0 1 1 3.4210526,2.424089 z"
+       transform="matrix(3.5466667,0,0,3.6592591,-4.1333335,-4.3703696)" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:1.25100005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.64379949"
+       id="path2385"
+       sodipodi:cx="2.4342105"
+       sodipodi:cy="2.424089"
+       sodipodi:rx="0.9868421"
+       sodipodi:ry="0.95647776"
+       d="M 3.4210526,2.424089 A 0.9868421,0.95647776 0 1 1 1.4473684,2.424089 A 0.9868421,0.95647776 0 1 1 3.4210526,2.424089 z"
+       transform="matrix(2.5333333,0,0,2.6137565,-1.6666667,-1.8359783)" />
+  </g>
+</svg>

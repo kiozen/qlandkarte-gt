@@ -1,0 +1,52 @@
+QLandkarte GT for Windows (short: QLGT) depends on the 3rd party software listed below
+
+See the Wiki on compile instructions:
+http://sourceforge.net/p/qlandkartegt/qlandkartegt/Compiling_QLandkarte_GT_on_Windows/
+
+
+1.) Microsoft Visual C++ 2008 SP1 Redistributable Package
+  The installer vcredist_x86.exe (ca 4MB size) as downloaded from
+    http://www.microsoft.com/downloads/en/details.aspx?familyid=A5C84275-3B97-4AB7-A40D-3802B2AF5FC2&displaylang=en
+  is contained in the QLGT Installer package and may be executed if selected by the user.
+  Note: Those runtime libraries are already contained in Windows Vista or Windows 7 installations.
+  Therefore they typically need only be installed on some Windows XP machines.
+
+2.) Qt runtime libraries
+  The Qt DLL's are deployed in the QLGT installation directory. 
+  They  are part of the "Qt libraries for Windows (VS 2008)" package.
+  This can be retrieved from http://qt.nokia.com/downloads/windows-cpp-vs2008.
+
+3.) The GDAL SDK packaged by Tamas Szekeres.
+  This be obtained from http://www.gisinternals.com/sdk/.
+
+4.) libjpeg
+  The libjpeg.lib and header files are needed to compile the helper program map2gcm.exe
+  The source code can be downloaded as jpegsr8b.zip from http://www.ijg.org/
+ 
+5.) stdint.h
+  The stdint.h is needed to compile the helper program map2gcm.exe
+  stdint.h can be downloaded from http://msinttypes.googlecode.com/svn/trunk/stdint.h 
+  as referenced in http://en.wikipedia.org/wiki/Stdint.h
+ 
+6.) Icons for the Windows Start Menu
+  a) GlobeWin.ico has been provided by Roland Hahn
+  b) kfm_home.ico, kget.ico, khelpcenter.ico, konsole.ico, xmag.ico 
+     have been created from the Nuvola 1.0 icon set (http://www.icon-king.com/projects/nuvola/)
+ 
+7.) Optional at run-time: libexif
+  The libexif-12.dll is only needed to extract location information from pictures (jpg, maybe others).
+  The source code can be downloaded at http://libexif.sourceforge.net/
+  As a convenience for the user, it is deployed in the QLGT installation directory.
+  As a convenience for the QLGT windows build manager, the libexif-12.dll binary was not compiled from scratch 
+  but copied from a GIMP 2.6.8 installation (download at http://www.gimp.org/windows/).
+
+8.) Optional at run-time: gpsbabel
+  To be able to load geodata from file types other than .gpx, gpsbabel.exe must be available in the search path. 
+  GPSBabel can be downloaded at http://www.gpsbabel.org/.
+  
+9.) Optional at compile time: libdmtx  
+  libdmtx can be downloaded at http://www.libdmtx.org/
+  In the QLGT windows binaries, libdmtx 0.7.2 is statically linked.
+  To create a static .lib, the configuration type of libdmtx in 
+    libdmtx-0.7.2\project\visualc9\libdmtx.vcproj
+  has been changed accordingly (with the VS2008 GUI) from dynamic lib to static lib.

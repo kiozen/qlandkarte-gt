@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="16"
+   height="16"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.45.1"
+   version="1.0"
+   sodipodi:docbase="/data/cpp/QLandkarteGT/src/icons"
+   sodipodi:docname="center.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   inkscape:export-filename="/data/cpp/QLandkarteGT/src/icons/iconCenter16x16.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="46.9375"
+     inkscape:cx="8"
+     inkscape:cy="8"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     width="16px"
+     height="16px"
+     showgrid="true"
+     objecttolerance="10000"
+     gridtolerance="10000"
+     guidetolerance="10000"
+     inkscape:window-width="1280"
+     inkscape:window-height="964"
+     inkscape:window-x="0"
+     inkscape:window-y="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       sodipodi:type="arc"
+       style="fill:#c8c8c8;fill-opacity:1;fill-rule:evenodd;stroke:#464646;stroke-width:0.37772527;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path2160"
+       sodipodi:cx="7.6804261"
+       sodipodi:cy="8.6817579"
+       sodipodi:rx="0.64980024"
+       sodipodi:ry="0.64980024"
+       d="M 8.3302264 8.6817579 A 0.64980024 0.64980024 0 1 1  7.0306259,8.6817579 A 0.64980024 0.64980024 0 1 1  8.3302264 8.6817579 z"
+       transform="matrix(2.3847147,-1.2513637e-2,1.2513638e-2,2.384715,-10.424265,-12.607408)"
+       inkscape:export-filename="/data/cpp/QLandkarteGT/src/icons/iconCenter16x16.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#c8c8c8;fill-opacity:1;fill-rule:evenodd;stroke:#464646;stroke-width:0.92824572;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 11.464123,7.9999994 L 13.092824,4.4641229 L 13.092824,6.8213738 L 15.535878,6.8213738 L 15.535878,9.1786249 L 13.092824,9.1786249 L 13.092824,11.535878 L 11.464123,7.9999994 z "
+       id="path3144"
+       inkscape:export-filename="/data/cpp/QLandkarteGT/src/icons/iconCenter16x16.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cccccccc" />
+    <path
+       style="fill:#c8c8c8;fill-opacity:1;fill-rule:evenodd;stroke:#464646;stroke-width:0.92824578;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 8.0000001,4.5358771 L 11.535878,2.9071754 L 9.1786252,2.9071754 L 9.1786252,0.46412287 L 6.8213751,0.46412287 L 6.8213751,2.9071754 L 4.4641229,2.9071754 L 8.0000001,4.5358771 z "
+       id="path4117"
+       inkscape:export-filename="/data/cpp/QLandkarteGT/src/icons/iconCenter16x16.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cccccccc" />
+    <path
+       style="fill:#c8c8c8;fill-opacity:1;fill-rule:evenodd;stroke:#464646;stroke-width:0.92824572;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 8.0000007,11.464122 L 11.535877,13.092824 L 9.178626,13.092824 L 9.178626,15.535877 L 6.8213753,15.535877 L 6.8213753,13.092824 L 4.4641228,13.092824 L 8.0000007,11.464122 z "
+       id="path4119"
+       inkscape:export-filename="/data/cpp/QLandkarteGT/src/icons/iconCenter16x16.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cccccccc" />
+    <path
+       style="fill:#c8c8c8;fill-opacity:1;fill-rule:evenodd;stroke:#464646;stroke-width:0.92824572;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 4.5358774,7.9999981 L 2.9071764,4.4641216 L 2.9071764,6.8213725 L 0.46412286,6.8213725 L 0.46412286,9.1786236 L 2.9071764,9.1786236 L 2.9071764,11.535877 L 4.5358774,7.9999981 z "
+       id="path5074"
+       inkscape:export-filename="/data/cpp/QLandkarteGT/src/icons/iconCenter16x16.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cccccccc" />
+  </g>
+</svg>

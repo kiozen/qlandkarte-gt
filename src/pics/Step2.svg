@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100"
+   height="100"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.45.1"
+   version="1.0"
+   sodipodi:docbase="/home/oeichler/Documents/cpp/QLandkarteGT/src/pics"
+   sodipodi:docname="Step2.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   inkscape:export-filename="/home/oeichler/Documents/cpp/QLandkarteGT/src/pics/Step2.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="7.046875"
+     inkscape:cx="64"
+     inkscape:cy="52.64745"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     width="100px"
+     height="100px"
+     showgrid="true"
+     objecttolerance="10000"
+     guidetolerance="10000"
+     inkscape:window-width="1920"
+     inkscape:window-height="1126"
+     inkscape:window-x="0"
+     inkscape:window-y="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       sodipodi:type="arc"
+       style="opacity:0.98999999;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#005500;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path2160"
+       sodipodi:cx="48.674057"
+       sodipodi:cy="49.126385"
+       sodipodi:rx="43.849224"
+       sodipodi:ry="43.068737"
+       d="M 92.523281 49.126385 A 43.849224 43.068737 0 1 1  4.8248329,49.126385 A 43.849224 43.068737 0 1 1  92.523281 49.126385 z"
+       transform="matrix(1.1146223,0,0,1.1348214,-4.25319,-5.7496718)" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:0.98999999;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:#008000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path2162"
+       sodipodi:cx="48.674057"
+       sodipodi:cy="49.126385"
+       sodipodi:rx="43.849224"
+       sodipodi:ry="43.068737"
+       d="M 92.523281 49.126385 A 43.849224 43.068737 0 1 1  4.8248329,49.126385 A 43.849224 43.068737 0 1 1  92.523281 49.126385 z"
+       transform="matrix(1.0031601,0,0,1.0213393,1.1721292,-0.1747066)" />
+    <text
+       xml:space="preserve"
+       style="font-size:8px;font-style:normal;font-weight:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Adobe Sans MM"
+       x="26.621094"
+       y="76.208984"
+       id="text3134"><tspan
+         sodipodi:role="line"
+         id="tspan3136"
+         x="26.621094"
+         y="76.208984"
+         style="font-size:72px;font-family:Arial Black">2</tspan></text>
+  </g>
+</svg>

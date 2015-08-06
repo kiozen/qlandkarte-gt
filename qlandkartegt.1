@@ -1,0 +1,74 @@
+.TH QLandkarteGT 1 "Dec 2009" "" ""
+.SH NAME
+QLandkarteGT \- GPS mapping (GeoTiff and vector) and GPSr management
+.SH SYNOPSIS
+.B qlandkartegt
+[
+.B \-d
+|
+.B \-\-debug
+]
+[
+.B \-h
+|
+.B \-\-help
+]
+.BI \fB\-m \ FD
+|
+.BI \-\-monitor= FD
+]
+[
+.B \-n
+|
+.B \-\-no-splash
+]
+[
+.IR files ...
+]
+.SH DESCRIPTION
+\fIQLandkarteGT\fR is a versatile tool for GPS maps in GeoTiff format as well as
+Garmin's img vector map format. \fIQLandkarteGT\fR is the successor of \fIQLandkarte\fR.
+Among various improvements (e.g. 2D/3D map rendering and reduced resource
+demands) the major difference is its device-independent architecture, which is
+not limited to Garmin devices anymore.
+.PP
+Additionally, \fIQLandkarteGT\fR serves as a frontend to the GDAL tools, to make
+georeferencing of scanned maps feasible for users. In contrast to similar tools
+(e.g. QGis) its straightforward interface is especially suited for
+non-scientific users.
+.SH OPTIONS
+\fIQLandkarteGT\fR currently understands the following options.
+Note that long options must be specified in full (by now).
+.TP
+.B \-d
+.TP
+.B \-\-debug
+Enable additional debugging messages to standard output.
+.TP
+.B \-h
+.TP
+.B \-\-help
+Print a short option summary, and exit.
+.TP
+.BI \-m \ FD
+.TP
+.BI \-\-monitor= FD
+Monitor the file descriptor \fIFD\fR for activity.
+If any new data arrives on the descriptor, a single byte is read
+from it, all currently active data are discarded,
+and the geo data files that have been specified at the
+end of the command-line when starting \fIQLandkarteGT\fR are read
+and evaluated again.
+.TP
+.B \-n
+.TP
+.B \-\-no-splash
+Do not display the splash screen on startup.
+.PP
+All remaining positional arguments are considered names of geo data files
+to be read and evaluated upon startup.
+.SH SEE ALSO
+\fIQLandkarteGT\fR Homepage: \fBhttp://www.qlandkarte.org\fR
+.SH AUTHOR
+\fIQLandkarteGT\fR was written and is currently maintained by Oliver Eichler
+\fB<oliver.eichler@gmx.de>\fR.

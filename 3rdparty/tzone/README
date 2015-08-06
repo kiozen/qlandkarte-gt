@@ -1,0 +1,57 @@
+Qt TimeZone Interface - README
+========================================
+
+This is a wrapper library for Qt around the Olsen Time Zone Database
+data. The code itself is not a port of tzcode, but a completely fresh
+implementation of the same algorithms for the Qt environment.
+
+The library can read TZ DB's compiled time zone DB files.
+It transforms unix timestamps, its own format and QDateTime objects.
+
+Other than the original tzcode package it can be compiled out of the
+box with Qt for Windows and integrates well with Qt.
+
+Copyright
+----------
+
+(c) Konrad Rosenbaum, 2010-2012
+protected under the GNU GPL v3 or at your option any newer
+see COPYING for details
+
+Please read the above again: it is GPL, not LGPL. You cannot use this library
+in proprietary code or other software under a GPLv3-incompatible license. If
+you need access to Olson-DB-data in such code you are free to use/port the
+original code.
+
+Directory db:
+the database files were copied from the original Unix timezone database.
+These files are in the public domain. See db/README.
+
+Big Fat Warning
+------------------
+
+So far this software is beta. This means it might calculate the wrong time,
+corrupt your data, eat your disk, misplace next weeks appointments, etc.
+ad infinitum, ad nauseam, ...
+
+This software comes with no warranty at all. You use it at your own risk.
+
+
+Building it
+-------------
+
+To create the library simply call:
+qmake
+make
+
+Source Documentation:
+1) can be built with calling doxygen
+2) you'll find the documentation in sourcedoc
+
+See db/README for details on how to change/update the built-in database files.
+
+If you want to build the library without the built-in database:
+1) call genemptyrcc.sh
+2) call make to rebuild the library
+
+See the generated source docu for usage details.

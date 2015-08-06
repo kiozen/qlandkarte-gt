@@ -1,0 +1,82 @@
+/** \mainpage
+\section using Using TZLib
+
+Simply some lines like these to your project file:
+\code
+TZLIB = Path/To/TZLib
+LIBS += -L$TZLIB -ltzdata
+INCLUDEPATH += $TZLIB/include
+\endcode
+
+Then \#include &lt;TimeStamp> in your source code and use the TimeStamp class. It has been made as compatible as possible with the Qt classes, but there are some differences in behavior. See the source docu for details about this class.
+
+Upon the first use of any interface in the TimeStamp class the library initializes itself. This includes detection of the currently active time zone.
+
+The other classes in this package are not meant for direct use unless you want to access the time zone database directly. The database interface can be found in <tzfile.h> (TimeZoneLib::TZRule, TimeZoneLib::PosixRule, TimeZoneLib::TZFile) - please be aware that although TimeStamp uses that interface you cannot use it directly to change the behavior of TimeStamp, since TimeStamp uses its own internal cache of time zones.
+
+Time zone detection:
+On Linux/Unix systems the library inspects the TZ environment variable and
+a few files that usually contain the name of the time zone. It expects to
+find an Olson name like "Europe/Berlin".
+On Windows it looks into the Windows registry to find the Windows name of
+the time zone, it then compares this with a list of mappings and returns the
+corresponding Olson name.
+Per default on other systems the library tries to use the Linux way.
+If the library cannot interpret what it gets from the system or does not
+know how to load that time zone it will revert to UTC - which is probably not
+what you wanted.
+Even if a match is found the loaded time zone of the library may vary in some
+subtle details from what the system uses for various reasons:
+- Windows has a much simple system of time zones than the Olson DB does,
+  for example it cannot handle anything but 0 and 2 changes of offset from
+  UTC per year.
+- Linux and other Olson DB based systems may have a different version of the
+  database installed (although it is unlikely if you remain at the defaults),
+  for example there is a version with and without leap seconds (default is without)
+  and some countries tend to change rules sporadically
+- older POSIX compliant systems also use a very simple description format
+  that can only handle no or two changes of offset
+
+If time zone detection fails for you, you can always use TimeStamp::setDefaultZone
+and TimeStamp::storeDefaultZone to fix it to something more closely resembling
+your system.
+
+\section hacking Hacking it
+
+A lot of the internal interfaces are exposed, so that they can be tested. That does not
+mean they are meant for normal use of the library. All interfaces marked as "internal" in
+the source documentation may change radically or even disappear in subsequent releases.
+
+\section files List of Files:
+
+tzdata.h, tzdata.cpp - the normal interface providing a TimeStamp class that should suffice for most uses
+
+tzfile.h, tzfile.cpp - the code for accessing time zone files
+
+tzreg.h - strictly internal: it exposes the internal zone registry for testing
+
+tzhelp.h - inline helper functions for calculations, they are not meant for direct use, even if you decide to access files directly, use them through TZRule instead, if you change them you most probably break something!
+
+tzsys.h, tzsys_unix.cpp, tzsys_win.cpp - helper functions to detect the local time zone, so far a version for Linux and Windows exist. You may need to extend this if you port the library to more traditional Unix systems that do not have the Olson DB installed, I'm unsure whether the Linux logic works on MacOS/X.
+
+
+\section classes List of Classes
+
+TimeStamp - the main user interface
+
+TimeZoneLib::TZFile, TimeZoneLib::TZRule, TimeZoneLib::PosixRule - the interface into TZ database files, they can be used to inspect those files
+
+
+\section subdirs List of sub-directories:
+
+Test Cases are found in the test directory, please use them if you change the library
+code - it is very easy to break the calculations. First build the library, then enter
+the test directory and build the test cases, you can execute them by calling ./tztest .
+
+The pscan utility is a small helper for finding POSIX fallback rules - I use it to find
+all the rules present in the database. Please read the Theory file of the original DB
+distribution to understand those rules. You need to worry if you ever find a rule that
+applies a shift to/from DST on January 1st or December 31st - in that case some heuristics
+in my code may fail.
+
+*/

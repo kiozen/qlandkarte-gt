@@ -1,0 +1,12 @@
+To beautify all source code do:
+
+cd src
+find ./ -name "*.h" -exec bcpp -fnc ../bcpp.config -fi {} \;
+find ./ -name "*.cpp" -exec bcpp -fnc ../bcpp.config -fi {} \;
+rm *.orig
+
+# or:
+cd src
+perl -e 'my @a=`svn st *.cpp *.h`; for my $b (@a) { $b =~ s/.......(.*)/$1/; print $b; system("bcpp -fnc ../bcpp.config -fi $b");}'
+# after making shure the operation did nothing eval:
+rm *.orig

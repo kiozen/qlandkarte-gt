@@ -1,0 +1,71 @@
+To compile the code make sure you meet the following dependencies:
+
+    * cmake - a make file generator  (>= Version 2.6)
+    * QT 4 / Qtopia 4 - the famous GUI tool kit, (>= Version 4.6)
+    * GDAL - Geospatial Data Abstraction Library (> Version 1.5.0, 1.5.0 is
+	  buggy)
+    * Proj4 - Cartographic Projections Library (>= Version 4.6)
+
+Optional you might want to use:
+
+    * libexif - to create wayoints from geotagged images
+    * libdmtx - to summarize waypoints as  2D barcode
+    * libgpsd - to use gpsd support
+
+
+You can download the latest release as source code on SourceForge.There will be
+a win32 binary, too.
+
+For the bleeding edge of development you have to use the SVN repository. For
+initial checkout:
+
+    svn co https://qlandkartegt.svn.sourceforge.net/svnroot/qlandkartegt/QLandkarteGT/trunk QLandkarteGT
+
+To build (out of source build, start one level above source root directory)1:
+
+    mkdir build_QLandkarteGT 
+
+    cd  build_QLandkarteGT 
+
+    ccmake ../QLandkarteGT 
+
+CCmake can be controlled by keys. Watch out for key hints at the bottom.
+Especially the"c" and"g" key. Next you do:
+
+    make
+
+The binary will be placed in ./bin. To catch up latest changes (in the source
+root directory):
+
+    svn up
+
+To send a patch (in the source root directory):
+
+    svn diff > patchname.diff
+
+As user you might want to do a
+
+    sudo make install
+
+to copy all stuff into your system. 
+
+
+Building on Mac OS X
+--------------------
+If you build on Mac OS X, the result of running "make" will be an application bundle
+in the bin folder. The bundle can be double-clicked in the Finder as usual. Note that
+the bundle does not contain the non-standard libraries, i.e. it is not possible to
+copy it to an other box.
+
+If you want to create a deployable bundle which can be transferred to an other Mac
+without the need to install Qt and all other libraries separately, run
+
+	make mac-deploy
+	
+after "make" which willl copy all non-standard resources into the bundle.
+Note: If you now change any sources and re-run make, the newly built application will
+complain about a mixture of the system-wide Qt frameworks and those in the bundle
+from "make mac-deploy". Simple fix: erase the bundle before running "make".
+
+You should not use "make install" on Mac OS X.
+

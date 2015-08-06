@@ -1,0 +1,9 @@
+To compile the Win32 Port you have to checkout the GDAL sub-repo, too. The checkout
+has to be in the same directory as this file:
+
+svn co https://qlandkartegt.svn.sourceforge.net/svnroot/qlandkartegt/GDAL/
+
+To run QLandkarte GT all files below the GDAL/bin path have to copied into the qlandkartegt.exe 
+path.
+
+This GDAL version has been compiled by Tamas Szekeres http://www.gisinternals.com/sdk/.

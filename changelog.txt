@@ -1,0 +1,1893 @@
+--- 2015.02.16 ---
+Routing: Fix MapQuest URL
+
+--- 2015.02.09 ---
+Routing: Add support for BRouter
+
+Routing: Switch MapQuest to new API version
+
+Routing: Handle multiple legs in MapQuest response
+
+Track: Mark position in the track point table on the on-screen
+
+GeoCache: Fix spoiler download
+
+Grid: Change coordinate format for long/lat grid from dd mm.mm to dd.dddddd
+
+Bug fixes to avoid crashes and GUI quirks
+
+--- 2014.07.08 ---
+LiveLog: Add large data fields
+
+LiveLog: save state of live log lock
+
+GPX: Import track color when importing tracks via GPSBabel
+
+Fix bad proxy port due to translation
+
+Garmin Maps: Add elevation to peak labels
+
+Qt5 support
+
+Add area overlay
+
+Diary: fix waypoint names
+
+--- 2014.02.14 ---
+Remove built-in OSM map links
+
+Tracks: Calculate speed over a larger delta to get better values
+
+Fix spoiler picture download for geocaches
+
+Fix namspace for geocaching log tags
+
+Fix timestamp parsing for timestamps with no 3 digit milliseconds format
+
+Fix CPU load for realtime log, add option to disable watchdog
+
+Change index for garmin custom symbols form 1 to 0
+
+Fix bad heading when using NMEA
+
+--- 2013.10.09 ---
+Database: Sanitize modify marker for tracks
+
+Garmin maps: Add UTF8 text codec to typfile decoder
+
+Garmin maps: Fix bad drawing of bitmap polylines if border flag is set by error
+
+Tracks: Add multicolor support for parameters slope, elevation and speed
+
+Tracks: Optimized drawing speed
+
+Geocaches: Fix broken spoiler download for gc.com geocaches
+
+Geocaches: Automatically load spoiler pictures when opening the edit dialog
+
+Fixed a bunch of little bugs introduced by the changes from previous releases
+
+--- 2013.09.16 ---
+Fix Google search
+
+Fix bugs due to database speed up of last release
+
+Improve function wheel for multiple waypoints with same coordinate
+
+Add icon to waypoint infobox to show if multiple images are attached.
+
+--- 2013.08.17 ---
+Garmin maps: Render polylines with a border a bit nicer
+
+Add option to hide/show info box for vector maps
+
+Add infobox to vector maps used as overlay
+
+Add tooltip to vector maps used as overlays
+
+Database: Optimized "workspace update" for a workspace with a lot of items
+
+--- 2013.07.09 ---
+change license  to GPLV3
+
+Fix chrash with Garmin maps using unknown codepage for labels
+
+Garmin Bulk: Ask to create missing directories.
+
+Fix crash when splitting tracks at stages
+
+Fix crash on deleting track point of focus
+
+Fix crash because of deleted slope setup
+
+Fix context menu in canvas to edit track
+
+Add optional small arrow for live log
+
+--- 2013.03.10 ---
+
+Bug     #424:
+Single track arrows not on track line
+
+Request #425:
+Add slope overlay to DEM overlays
+
+Request #426:
+Uncheck and disable sticky waypoints in export dialog
+
+Request #427:
+Add spoiler download for geocaches
+
+Request #428:
+Read number of satellites from gpsd
+
+Request #429:
+Add filter to detect position hold for live log
+
+Request #430:
+Move last opened file to top of most recent list
+
+Request #431:
+Add position based timezone to timestamp conversion for tracks and waypoints
+
+Request #432:
+Add timezone clock to canvas
+
+Request #433:
+Add rectangle to limit reference points produced by grid tool
+
+Request #434:
+Add snap to line for overlay maps
+
+
+
+--- 2012.11.25 ---
+
+Request #411:
+Add basic data exchange for Magellan devices
+
+Request #412:
+Add trackfilter to add offset to elevation
+
+Request #413:
+Add lock flag to database folders and remove locked folders from possible target folders
+
+Request #414:
+Update DEM elevation in tracks if DEM attached to map file changes.
+
+Request #415:
+Add support for Magellan RMP map format.
+
+Request #416:
+Load other JNX files with same product ID as the one initially loaded
+
+Request #417:
+Add support to export raster maps to Magellan RMP format.
+
+Request #418:
+Add track filter to split tracks at stages.
+
+Request #419:
+Add 3-click track point selection
+
+Request #420:
+Apply track filters to slection only, if there is a selection
+
+Request #421:
+Add track filter to change start time of track
+
+Request #422:
+Add track filter to change speed of track
+
+Request #423:
+Add track filter to remove/unify timestamps
+
+
+
+--- 2012.10.15 ---
+
+Bug     #410:
+Missing sign of lon and lat when importing pictures via exif header.
+
+
+
+--- 2012.10.14 ---
+
+Bug     #403:
+Fixing extension and format when storing QR Code for waypoints
+
+Bug     #404:
+Fix: Bad Position in EXIF header causes crash.
+
+Request #405:
+Emhance import for georeferenced images
+
+Request #406:
+Read and display direction from georeferenced images
+
+Request #407:
+Reference pictures by timestamp and track
+
+Request #408:
+Reference pictures by position and track
+
+Request #409:
+Add poxy authentication
+
+
+
+--- 2012.08.27 ---
+
+Bug     #395:
+Fixed: Waypoint is not highlighted in list when selected on map
+
+Request #396:
+Add Douglas Peucker filter to track filters
+
+Request #397:
+Add "apply now" butoon to all track filter
+
+Bug     #398:
+Fixed: Various bugs in export of streaming server cache
+
+Bug     #399:
+Fixed: Local timestamp is used when waypoint is saved to gpx.
+
+Request #400:
+Spped up loading of many gpx files
+
+Bug     #401:
+Fixed: Wrong mdr file picked if there are multiple ones
+
+Request #402:
+Add image viewer for waypoint images
+
+
+
+--- 2012.06.26 ---
+
+Request #390:
+Add online version check
+
+Request #391:
+Add selection for online maps
+
+Request #392:
+Track: Highlight stage under cursor for list of stages and track plot
+
+Request #393:
+Restructure track filter dialog.
+
+Request #394:
+GeoDB: add data export to QLB
+
+
+
+--- 2012.05.22 ---
+
+Bug     #384:
+Fix: Garmin and Twonav: Files in the data path root are not opened.
+
+Bug     #385:
+Fix: TwoNav: Timestamps are not written and read correctly.
+
+Bug     #386:
+Fix: TwoNav: Colons in the roadbook waypoint
+
+Bug     #387:
+Fix: TwoNav: Text strings are not detected as empty due to HTML tags.
+
+Request #388:
+Optimize radius selection for huge amount of waypoints
+
+Bug     #389:
+Fix: TwoNav: geocache logs are missing on download.
+
+
+
+--- 2012.05.19 ---
+
+Request #373:
+Add export for TwoNav devices
+
+Request #374:
+Add context menu item to split tracks
+
+Request #375:
+Add user login for geonames.
+
+Request #376:
+Use feet for elevation in natic units
+
+Request #377:
+Add definition of TMS maps by xml file with layers and script support
+
+Request #378:
+Limit waypoint auto-nmubering to waypoints with digits at the end only
+
+Bug     #379:
+Fix mega menu transparency for OS X
+
+Bug     #380:
+Fix missing text for raster map selection
+
+Bug     #381:
+Fix missing image formats for Windows
+
+Bug     #382:
+Fix crash in diary
+
+Request #383:
+Add Czech translation
+
+
+
+--- 2012.02.26 ---
+
+Request #363:
+Add nativ WMS support
+
+Bug     #364:
+Fix compass for polar regions
+
+Request #365:
+Add configuration for diskcache (path, size limit, time limit)
+
+Request #366:
+Enable limited map export from TMS/WMS maps
+
+Request #367:
+Add a user defined projection to --- no map ---
+
+Request #368:
+Add export of spoiler pictures to Garmin Bulk Device export
+
+Request #369:
+Add dialog to crop a map
+
+Request #370:
+Add basic support to view and create maps in RMAP format
+
+Request #371:
+Add commandline option to define configuration file explicitely.
+
+Request #372:
+Increase length of media filter for track profiles if applied several times.
+
+
+
+--- 2012.01.04 ---
+
+Request #350:
+Use unit translator for elevation points in Garmin maps
+
+Bug     #351:
+Fix: Proxy for TMS maps not working
+
+Bug     #352:
+Fix: Badly positionsed tiles with TMS maps
+
+Bug     #353:
+Fix: Compiler optimization -O3 makes Garmin maps crash.
+
+Request #354:
+Make cache path and size an option for streaming maps
+
+Request #355:
+Waypoint selection by radius
+
+Request #356:
+Replace --- OSM --- by own category "Stream"-ing maps
+
+Request #357:
+Worldwide routing via MapQuest
+
+Request #358:
+User defined geographic grid
+
+Request #359:
+Update Spanish translation
+
+Request #360:
+Update German translation
+
+Request #361:
+Projection wizard tries to restore selection from projection string
+
+Request #362:
+Use unit translator for elevation points in Garmin maps
+
+
+
+--- 2011.12.01 ---
+
+Request #340:
+3DView: add key bindings to raise and lower elevation
+
+Request #341:
+Add distance info for segments of a distance polyline
+
+Request #342:
+Improve performance of the ---OSM--- map
+
+Request #343:
+Enhance map export dialog
+
+Request #344:
+Automatically add name to new waypoints (auto-numbering)
+
+Bug     #345:
+Garmin: Fix GPX export for proximity distance
+
+Request #346:
+Add up and download support for Garmin Mass Storage devices.
+
+Request #347:
+Add pictures attached to waypoints to the track s stages table
+
+Request #348:
+Add pre-defined icons for driving instructions to waypoint edit dialog
+
+Request #349:
+Show picture attached to waypoint in waypoint info bubble, remove separate one
+
+
+
+--- 2011.11.07 ---
+
+Request #328:
+Scale on-screen track profile for small screens
+
+Request #329:
+Show waypoint link in browser view if no waypoint is no geocache
+
+Request #330:
+Win32: Drop FWTool in favour of more recent GDAL binaries.
+
+Request #331:
+Win32: Add GDAL binaries as part of installer
+
+Request #332:
+Stages of a track: change "to last" into "to next"
+
+Bug     #333:
+Fixed: Map that makes QLGT crash is loaded on startup to make it crash again and again
+
+Request #334:
+Rework raster map export to be more robust on all kinds of maps
+
+Bug     #335:
+Fixed: DEM overlay is not drawn when viewport is not covered 100% by DEM
+
+Bug     #336:
+Fixed: Vector overlay looks ugly
+
+Request #337:
+Switch from QImage to QPixmap as canvas buffer to speed up drawing.
+
+Request #338:
+Use Douglas-Peucker algorithm to simply polylines and polygons on Garmin maps.
+
+Bug     #339:
+fixed: OS X: missing 3D support
+
+
+
+--- 2011.09.19 ---
+
+Bug     #321:
+Fixed: Diary does not save comments on waypoints and tracks
+
+Bug     #322:
+Fixed: Bad coordinates for georef. pics on big endian systems
+
+Request #323:
+Add stages of a track to track edit dialog
+
+Request #324:
+Add tool button for filter dialog to track edit dialog
+
+Request #325:
+Convert checkboxes for reset and delete trackpoints to toolbuttons
+
+Request #326:
+Add support for mime links on OS X
+
+Request #327:
+Automatically move map while drawing distance polyline
+
+
+
+--- 2011.08.30 ---
+
+Request #310:
+Preserve track color on split operations
+
+Request #311:
+Optimize map creation dialogs for small screens.
+
+Request #312:
+Add option to save workspace every X seconds
+
+Request #313:
+Change edit mode for track name (edit and return will take over the change)
+
+Request #314:
+Ask before closing edited diary.
+
+Request #315:
+Make map an option in diary printout
+
+Request #316:
+Add elevation median filter to track filter dialog.
+
+Request #317:
+Add time on the move to track info.
+
+Request #318:
+Change average speed in graph from linear averaging filter to median filter.
+
+Request #319:
+Show trackpoint information on large profile plots, too.
+
+Request #320:
+Remove some abundant entries from waypoint and track menu.
+
+
+
+--- 2011.07.11 ---
+
+
+
+--- 2011.07.11 ---
+
+Request #297:
+Add import/export for OZI data.
+
+Request #298:
+Add track profiles to diary
+
+Request #299:
+Add import of WBT201 data
+
+Bug     #300:
+Diary: comments do not match their items
+
+Request #301:
+Add option for southern hemisphere in projection wizzard
+
+Request #302:
+Enhance coordinate / pixel query on canvas
+
+Request #303:
+Iterate over reference points with n and b key for finetunig
+
+Request #304:
+Add overview levels to reference process
+
+Request #305:
+Add on-the-fly quadratic zoom option to qmap
+
+Request #306:
+Add cachename to geocaches on the map
+
+Request #307:
+Add selection of multiple waypoints via checkboxes
+
+Request #308:
+Enhance delete, icon and proximity funtions for new waypoint selection
+
+Request #309:
+Show track point under cursor in profile preview and vice versa
+
+
+
+--- 2011.06.23 ---
+
+Bug     #294:
+Fix: Projection compare (map/dem) still fails
+
+Request #295:
+Take over waypoint description for routepoint
+
+Bug     #296:
+Fix: Crash on Garmin maps with POI labels
+
+
+
+--- 2011.06.15 ---
+
+Bug     #281:
+Fix: Crash for maps with bad dimensions
+
+Request #282:
+Trackfilter by azimuth
+
+Request #283:
+Show number of visible and total track points
+
+Request #284:
+Sort routes by name and time
+
+Request #285:
+Open URLs via desktop service, drop the qlgt internal browser configuration
+
+Bug     #286:
+Fix: Crash if map files are missing
+
+Request #287:
+Improve projection compare for DEM
+
+Request #288:
+Make icon decluttering an option
+
+Request #289:
+Bad export to gpx of new route.
+
+Request #290:
+Add toggle to show/hide toolview (crtl+t)
+
+Request #291:
+Add expired / remaining time to track point info
+
+Bug     #292:
+Fix: Crash with 3D map if no map is selected
+
+Request #293:
+Change diary function completely
+
+
+
+--- 2011.05.19 ---
+
+Bug     #267:
+Fix: Segfault for maps with more bands than RGB
+
+Request #268:
+Show formats supported by GDAL in the about box
+
+Request #269:
+Edit track color and name on the fly
+
+Request #270:
+Add info and config dialog for other maps than Garmin
+
+Bug     #271:
+Alpha channel artifacts on maps for cheap graphic cards
+
+Request #272:
+Add OSM configuration dialog to add new server URLs
+
+Request #273:
+Add hints for geocaches
+
+Request #274:
+Support OZI track files
+
+Request #275:
+Add sort waypoints by time
+
+Bug     #276:
+Fix: Crash when cancelling new waypoint
+
+Request #277:
+Make tiles selectable for Garmin Custom Maps
+
+Bug     #278:
+Fix: Non unique key when creating tracks from route
+
+Request #279:
+Export tiles for Garmin Custom Map as one kmz
+
+Request #280:
+Add map selections to geodb
+
+
+
+--- 2011.03.15 ---
+
+Bug     #263:
+Fix: Garmin Custom Map export broken
+
+Request #264:
+Add export to OpenCacheManager
+
+Request #265:
+Add parent waypoint (geocache) to waypoints
+
+Bug     #266:
+Fix: Crash when deleting items from large workspace
+
+
+
+--- 2011.02.16 ---
+
+Request #252:
+Make waypoint text color selectable
+
+Bug     #253:
+Fix color band decoding for multi band raster maps
+
+Request #254:
+Place waypoint labels a bit more intelligent
+
+Request #255:
+Add DBus API for addGeoData()
+
+Request #256:
+Add directory for user defined waypoint icons
+
+Request #257:
+Add DBus API to add waypoint icons from othe applications
+
+Request #258:
+Add special geocache icons
+
+Request #259:
+Read GPX geocache information from oc.de and gc.com
+
+Request #260:
+Get additional waypoints from geocache description
+
+Bug     #261:
+Garmin Custom map export produces empty KML on win32
+
+Request #262:
+Add export of geocache buddy waypoints as option
+
+
+
+--- 2011.01.26 ---
+
+Request #240:
+Minimize height of waypoint dialog
+
+Request #241:
+Double click point in track edit moves map
+
+Request #242:
+Add distance to start and end to track point information
+
+Request #243:
+Add all other data fields to waypoint information
+
+Request #244:
+Add better support for waypoint icons larger than 15x15
+
+Request #246:
+Add direction arrow to route
+
+Request #247:
+Add direction arrow to distance polyline
+
+Request #248:
+Make distance polyline bullets an option
+
+Request #249:
+Add hide and show to distance polyline
+
+Request #250:
+Add info dialog for map collections (qmap)
+
+Request #251:
+Add resize and move to map area selection (\*.qmap)
+
+
+
+--- 2010.12.27 ---
+
+Request #237:
+Add timeout to route calculation
+
+Request #238:
+Add order to selected waypoints to create a route
+
+Request #239:
+Add Garmin BirdsEye support (display only)
+
+
+
+--- 2010.12.06 ---
+
+Request #231:
+Make anti-aliasing an option
+
+Bug     #232:
+Photos in the south eastern hemisphere are referenced badly
+
+Request #233:
+Make tracks and routes semi-transparent
+
+Request #234:
+Add legend for Garmin maps
+
+Request #235:
+Fixes and improvements for NMEA support
+
+Request #236:
+Move map with Alt+mouse move
+
+
+
+--- 2010.11.15 ---
+
+Request #218:
+Add "description" as additional field to waypoints.
+
+Request #219:
+Make routing language a selection
+
+Bug     #220:
+Fixed: Garmin Custom Maps fail on maps with lon/lat projection
+
+Bug     #221:
+Fixed: Crash when exporting maps with bad or missing mdr file
+
+Request #222:
+Make baudrate selectable for NMEA device.
+
+Request #223:
+Update Spanish translation
+
+Request #224:
+Update italian transaltion
+
+Request #225:
+Update dutch translation
+
+Request #226:
+Add location search via OpenRouteService
+
+Request #227:
+Add most important web links to help menu
+
+Bug     #228:
+Fixed: Add big endian fixes for OS X
+
+Request #229:
+Distance over time graph
+
+Bug     #230:
+Fixed: Strings for 20bit type polylines and polygons are decoded badly
+
+
+
+--- 2010.11.02 ---
+
+Bug     #217:
+Forgot to do a commit before the release
+
+
+
+--- 2010.11.02 ---
+
+Request #210:
+Make UI fit for GNOME
+
+Request #211:
+Add tooltip (optional) for items below cursor on Garmin maps
+
+Request #212:
+Make zoom level and track maxima labels optional
+
+Request #213:
+Prepare route object for autorouting information
+
+Request #214:
+Add autorouting via openroute service
+
+Request #215:
+Use secondary (autorouted) route for gpx export
+
+Request #216:
+Use secondary (autorouted) route for garmin device upload
+
+
+
+--- 2010.09.26 ---
+
+Request #170:
+Show extended data of tracks
+
+Bug     #202:
+Various user supplied bugfixes.
+
+Request #203:
+Pimp up map canvas
+
+Request #204:
+Add min/max elevation markers to highlighted track
+
+Bug     #205:
+File dialog for screenshot, save track stat plot and save canvas behaves strange.
+
+Request #206:
+GeoDB: add summary about item as tooltip rather than the real comment.
+
+Request #208:
+Add track profile preview on canvas
+
+Request #209:
+Make scale and wind rose optional
+
+
+
+--- 2010.09.11 ---
+
+Request #195:
+Export raster maps to KMZ
+
+Request #196:
+Export raster maps as Garmin Custom Map tiles
+
+Request #197:
+Make folder system of geo database a bit more flexible
+
+Bug     #198:
+Optimize geo database access and fix many glitches.
+
+Bug     #199:
+Some tiles on OSM maps are not selectable
+
+Bug     #200:
+Fix glitches in track profile/ edit/ toolview interaction
+
+Request #201:
+Enhance guideline and snap algorithm for drawing distance polylines
+
+
+
+--- 2010.08.15 ---
+
+Bug     #192:
+Fixed Garmin map: Small vertical or horizontal lines are not drawn
+
+Request #193:
+Use SQLite database for user data
+
+Request #194:
+Add project explorer for the database
+
+
+
+--- 2010.07.28 ---
+
+Request #184:
+Detect proxy from environment variable
+
+Request #185:
+Get elevation data for artificial tracks from www.geonames.org
+
+Request #186:
+Improove snap to line for distance polyline
+
+Bug     #187:
+Fix: endian bugs in Garmin label decoding
+
+Request #188:
+Split track in segements of size N
+
+Request #189:
+Sort tracks by name and time
+
+Request #190:
+Copy-n-paste for distance polyline.
+
+Request #191:
+Combine several distance polyline overlays
+
+
+
+--- 2010.07.04 ---
+
+Request #177:
+Keep on adding points when adding points to start or end of distance polyline
+
+Bug     #178:
+Fix: End points are deleted when moving around is aborted.
+
+Request #179:
+Add speed and estimated time to distance polyline
+
+Request #180:
+Select items for export/upload
+
+Bug     #181:
+Fix: Proximity circles are not drawn if waypoint leaves viewport
+
+Request #182:
+Make distance polyline follow lines in vector map
+
+Bug     #183:
+Change shortcut description from Del to Ctrl + Del in left hand tool widgets
+
+
+
+--- 2010.06.06 ---
+
+Bug     #172:
+Fixed: typ file not working on device.
+
+Request #173:
+Sort waypoints by name, icon or position
+
+Request #174:
+Make track bubbles an option
+
+Request #175:
+Fine tune reference offset for raster maps
+
+Bug     #176:
+Fix performance stall when loading large quantity (>2000) of waypoints
+
+
+
+--- 2010.05.10 ---
+
+Request #167:
+Dutch translation
+
+Request #168:
+Add gpsd support
+
+Request #169:
+Optimize map rendering for Garmin maps
+
+Request #171:
+Add selection for typ file if there are several
+
+
+
+--- 2010.04.03 ---
+
+Bug     #157:
+Fixed: Bad zoom factor for "zoom to fit"
+
+Request #158:
+Sort list entries in tool views
+
+Request #159:
+Accept more formats for waypoint coords and related.
+
+Bug     #160:
+Fixed: Typ file is not used in gmapsupp.img
+
+Request #161:
+Code map set name into gmapsupp.img
+
+Request #162:
+Allow use of *.hgt files to import elevation data
+
+Bug     #163:
+Fixed: GDAL tools not found on OS X port
+
+Bug     #164:
+Fixed: Endless loop on profile over time for tracks with no timestamp.
+
+Request #165:
+Revert track
+
+Request #166:
+Speed up loading of Garmin tiles.
+
+
+
+--- 2010.03.04 ---
+
+Bug     #141:
+Fix: Raster map search does not work with map files containing multiple '.'
+
+Bug     #142:
+Fix: Raster map search does not work with lon/lat WGS84 projection
+
+Request #143:
+Delete map while active/shown
+
+Request #144:
+Make scalebar work for maps with lat/lon projection
+
+Bug     #145:
+Fix: Zoom to area does not work when using lon/lat DEM and Garmin maps
+
+Bug     #146:
+Fix: qlb and sticky waypoint handling for qt4.6
+
+Request #147:
+Hide / show tracks
+
+Request #148:
+Add zoom to fit for multiple selected tracks
+
+Request #149:
+Add zoom to fit for multiple selected waypoints
+
+Request #150:
+Rewrite 3D view
+
+Request #151:
+Add first person view to 3D view
+
+Request #152:
+Add point of view on track to 3D view
+
+Request #153:
+Add compass to 3D view
+
+Request #154:
+Add elevation meter to 3D view
+
+Request #155:
+Add artificial horizont to 3D view
+
+Request #156:
+Add zoom to fit for multiple selected overlays
+
+
+
+--- 2010.02.06 ---
+
+Bug     #134:
+Fix: GPX has bad <extension/> tag
+
+Bug     #135:
+Fix: Missing polylines in openmtbmap
+
+Request #136:
+Update language files
+
+Bug     #137:
+Fix bad syntax that makes GCC 4.5 to fail
+
+Bug     #138:
+Fix: QLandkarte GT crashing on copy-n-paste track. (+ enhance copy-n-paste)
+
+Bug     #139:
+Fix overflow in retrieving GPS position from exif data
+
+Request #140:
+Unify behavior when moving a waypoint and distance polyline point
+
+
+
+--- 2010.01.24 ---
+
+Bug     #123:
+Fixes for big endian systems
+
+Bug     #124:
+Fixes for OSX build system
+
+Request #125:
+Add Garmin custom icons
+
+Request #126:
+Add live log support for NMEA devices
+
+Request #127:
+Make character set selectable for Garmin devices
+
+Request #128:
+Rewrite TYP decoding
+
+Request #129:
+Rewrite render engine for Garmin maps to match better TYP decoding.
+
+Request #130:
+Add checkbox for Garmin night vision to statusbar
+
+Request #131:
+Move detail selection to statusbar for Garmin maps
+
+Request #132:
+Pimp up elevation plots
+
+Request #133:
+Fix GUI glitches
+
+
+
+--- 2009.12.21 ---
+
+Request #92:
+Rework gpx saving/loading to be standard compliant.
+
+Request #116:
+Add drag-n-drop for gpx et al
+
+Request #117:
+Add map names as tooltips in map list
+
+Request #118:
+Add list of recent loaded/saved geo data files
+
+Request #119:
+Add Spanish translation
+
+Request #120:
+Add track filter to change timestamps and to weed out track points.
+
+Request #121:
+Add download of routes to Garmin devices
+
+Request #122:
+Add command line options (use qlandkartegt --help for more information)
+
+
+
+--- 2009.10.26 ---
+
+Request #113:
+Add direction arrow to tracks
+
+Request #114:
+Add barcode to waypoint edit dialog
+
+Bug     #115:
+Crash when deleting purged trackpoints
+
+
+
+--- 2009.09.18 ---
+
+Request #107:
+Remove copy of original track when splitting a track
+
+Bug     #108:
+Purgeing trackpoints by del key is no toggle function anymore
+
+Request #109:
+Save 3D view as image file
+
+Request #110:
+Add device screenshot feature
+
+Request #111:
+Tweak rendering for Garmin maps to display latest OSM maps nicely
+
+Request #112:
+Accept any bitmap file type for referencing.
+
+
+
+--- 2009.08.17 ---
+
+Bug     #100:
+Make arrow keys work on track edit again.
+
+Request #101:
+Add support for new Garmin map formats (latest ones still missing)
+
+Request #102:
+Save viewport and graphs as bitmap
+
+Request #104:
+Add waypoint support to 3D view (add, del, edit)
+
+Request #105:
+Add deselect for track
+
+Request #106:
+Open multiple files with geo data
+
+
+
+--- 2009.06.22 ---
+
+Bug     #99:
+Fix corrupted Russian ts file
+
+
+
+--- 2009.06.22 ---
+
+Bug     #99:
+Fix corrupted Russian ts file
+
+
+
+--- 2009.06.22 ---
+
+Bug     #91:
+Crash with track cutting tool if last track point is selected.
+
+Request #93:
+Add klm to list of supported formats (via gpsbabel)
+
+Request #94:
+Convert track to distance polyline
+
+Request #96:
+Add waypoints from geo tagged images.
+
+Request #97:
+Restructure menus to be more flexible.
+
+
+
+--- 2009.05.20 ---
+
+Request #85:
+Garmin Maps: Draw lines with bitmaps form \*typ file
+
+Request #86:
+Add feature selection for Garmin maps. (context menu in the map list)
+
+Bug     #87:
+Many small fixes for typ file icon decoding
+
+Bug     #88:
+Crash on missing map
+
+Request #89:
+Map switching: Keep center of map if it is within the area of the new map.
+
+Request #90:
+Garmin maps: show type ids for polygons and points in info box
+
+
+
+--- 2009.05.05 ---
+
+Request #70:
+Waypoint tool view: convert multiple waypoints to route
+
+Request #77:
+Add support for 32bit RGB(A) raster maps.
+
+Request #78:
+move opened raster maps to center instead of top left corner
+
+Bug     #79:
+Zoom snaps back to previous zoom level when zooming via F2 followed by mouse wheel
+
+Request #80:
+Add quadratic zoom as option to raster maps (single file and *qmap)
+
+Request #81:
+Convert distance polyline to track: make interval of track points selectable
+
+Request #82:
+Convert distance polyline to route
+
+Request #83:
+Upload tracks to Garmin device
+
+Request #84:
+Add route upload for Garmin devices
+
+
+
+--- 2009.04.14 ---
+
+Request #69:
+Italian translation
+
+Request #71:
+Add track graphs over distance and time
+
+Request #72:
+Group edit proximity distance
+
+Request #73:
+Load geo data (gpx, loc ...) from command line
+
+Request #74:
+Russian translation
+
+Bug     #75:
+Length does not change while deleting points in distance polyline
+
+Bug     #76:
+Loading single raster map file with long/lat projection gives bad coord. in status bar
+
+
+
+--- 2009.03.09 ---
+
+Bug     #60:
+Distance line function wheel: remove lock when wheel is on and new line is added.
+
+Request #61:
+Distance line function wheel: add icons to add point at start/end of line
+
+Request #62:
+Add GUI to create GDAL WMS definition files
+
+Request #63:
+Make trackedit sortable
+
+Request #64:
+Add German translation
+
+Request #65:
+Add French translation
+
+Request #66:
+Add support for OSM tile server
+
+Bug     #67:
+Map crashes on maps with polyline types > 0x2B
+
+Request #68:
+3D view: fill complete skybox area with map
+
+
+
+--- 2009.02.06 ---
+
+Request #54:
+Garmin: Decode point icons of encoding type 0x20
+
+Request #55:
+Delete waypoints by group
+
+Request #56:
+Optimize function wheel for distance points
+
+Request #57:
+Add zoom by area
+
+Request #58:
+Add real lightning to 3D view with variable light source
+
+Request #59:
+Add simple support for WMS maps via GDAL_WMS XML file (see http://www.gdal.org/frmt_wms.html)
+
+
+
+--- 2009.01.01 ---
+
+Request #51:
+Garmin: Show labels of urban points on all zoom levels
+
+Request #52:
+Garmin: fine tune detail level
+
+Request #53:
+Add false lightning to 3D via 2D map shading
+
+
+
+--- 2008.12.23 ---
+
+Request #44:
+Garmin: add typ file polygon type 7
+
+Bug     #45:
+Garmin: Crash with typ files that have empty sections
+
+Request #46:
+Garmin: Collect points/pois and polylines in SQLite database.
+
+Request #47:
+Garmin: search polylines and points by name
+
+Bug     #48:
+Search and fix memory leaks.
+
+Request #49:
+Add clouds to 3D view.
+
+Request #50:
+Optimize 3D view creation for speed.
+
+
+
+--- 2008.12.05 ---
+
+Request #37:
+Garmin maps: Add text to polylines
+
+Request #38:
+Optimze DEM interpolation for faster 3D view.
+
+Request #39:
+Add positon bars to profile graph et al
+
+Request #40:
+Optimize track render
+
+Bug     #41:
+Garmin maps: some intermediate maplevels are missing
+
+Request #42:
+Add sky to 3D view
+
+Request #43:
+Remove side information from QLandkarteGT.conf when deleting Garmin maps.
+
+
+
+--- 2008.11.24 ---
+
+Request #33:
+Garmin typ file support
+
+Request #34:
+Change render engine for Garmin maps to allow skinnig
+
+Request #35:
+Add typ file support to Garmin map upload
+
+Bug     #36:
+Fixed: Garmin maps with same tdb name get same alias in map tool view
+
+
+
+--- 2008.11.13 ---
+
+Request #27:
+Restructure DEM data handling
+
+Request #28:
+Change map tool view to apply DEM data to all maps
+
+Request #29:
+Stack vector maps as overlay
+
+Request #30:
+Export Garmin maps to gmapsupp.img
+
+Request #31:
+Upload maps to Garmin devices
+
+Request #32:
+Add lefthand menu and eye candy to 3D view
+
+
+
+--- 2008.10.29 ---
+
+Request #22:
+Search for symbols on raster maps (\*.qmap)
+
+Request #23:
+3D OpenGL track view
+
+Request #24:
+3D OpenGL landscape model
+
+Request #25:
+Add Garmin map (\*tdb) support.
+
+Request #26:
+Load \*loc and \*gdb files via GPSBabel
+
+
+
+--- 2008.09.30 ---
+
+Request #12:
+Add icon wheel to search results
+
+Request #13:
+Reorganize track statistics graphs
+
+Request #14:
+Add shortterm average speed to track and graph
+
+Request #15:
+Read Garmin \*tcx
+
+Bug     #16:
+Fix QT bug for floating point attributes in XML
+
+Request #17:
+Select trackpoints by rectangle on map
+
+Request #18:
+Add waypoint icons to profile graph
+
+Request #19:
+Add zoom to track statistic graphs
+
+Request #20:
+Combine tracks sorted either by timestamp or list order
+
+Bug     #21:
+Fixed bug in "cut track" marker
+
+
+
+--- 2008.09.01 ---
+
+Request #6:
+Add distance polyline to olverlays
+
+Request #7:
+Convert distance overlay to track
+
+Request #8:
+Save / load distance overlay as qlb and qpx
+
+Request #9:
+Add device quick selection to left hand tool view.
+
+Request #10:
+Add track upload (QLandkarte M only)
+
+Request #11:
+Add icon wheel to select function to waypoints
+
+
+
+--- 2008.07.14 ---
+
+Request #1:
+Restart project management after crash
+
+Request #2:
+Add geo-referenced text box to overlays
+
+Request #3:
+Add "no map" to list of known maps
+
+Request #4:
+Add unit converter to use other units than metric
+
+Request #5:
+Add nautic units
+
+
+
+--- 2008.06.13 ---
+
+Request #50:
+Add ascend and descend values to secondary track information
+
+Request #51:
+Add eleveation from DEM data to elevation plot as reference
+
+Request #52:
+Add Mercator projection to NoMap to display overlays without map
+
+Request #53:
+Make mouse wheel direction an option
+
+Bug     #54:
+fixed bug in coord. calc. for W1° < lon < 0, S1° < lat < 0
+
+Request #55:
+Add handler for simple graphical elements (overlays)
+
+Request #56:
+Add a fixed text box to overlays
+
+
+
+--- 2008.05.30 ---
+
+Request #41:
+Add live log
+
+Bug     #42:
+Fixed installer script for Win32, take FWTools out of binary
+
+Request #43:
+Improve map export for further needs
+
+Request #46:
+Buffer map to perform faster drawing operations on top of it
+
+Bug     #44:
+Fixed bad track timestamps for Garmin devices
+
+Bug     #45:
+Fixed bad total time for tracks longer a day
+
+Request #47:
+Clean up code, move drawing of overlays into DB objects
+
+Request #48:
+Convert search result to waypoint and copy to clipboard
+
+Request #49:
+Update elevation of a waypoint when moved (and DEM data is present)
+
+
+
+--- 2008.05.16 ---
+
+Request #23:
+Split a track
+
+Request #36:
+Add support for Garmin device driver plugins
+
+Request #37:
+Add down-/upload of waypoints to Garmin device
+
+Request #38:
+Add track download to Garmin device
+
+Request #39:
+Combine multiple tracks
+
+Request #40:
+Add "upload/download all" function
+
+
+
+--- 2008.05.06 ---
+
+Request #28:
+Printing diary: rotate map to fit the portrait page
+
+Bug     #29:
+Empty diary is not detected as empty
+
+Request #30:
+Add elevation plot for tracks
+
+Request #31:
+Add speed plot for tracks
+
+Request #32:
+Support gray scale bitmaps
+
+Request #33:
+Allow the user to change the file name of a referenced file.
+
+Request #34:
+Load a single GeoTiff file (w/o \*.qmap)
+
+Request #35:
+Add win32 binary installer
+
+
+
+--- 2008.04.24 ---
+
+Bug     #24:
+Modify flag was set when loading geo data with diary content.
+
+Request #25:
+Add project summary to left hand side splitter
+
+Bug     #26:
+Add geo data erased diary with new data
+
+Request #27:
+Generate diary from loaded geo data
+
+
+
+--- 2008.04.19 ---
+
+Request #11:
+Suppress scalebar for bitmaps without georeferenceing information.
+
+Request #12:
+Implement sticky waypoints.
+
+Request #13:
+Add projection wizard to GeoTiff creation.
+
+Request #14:
+Add http link to waypoint
+
+Request #15:
+Add waypoint edit/copy position/delete to canvas context menu
+
+Request #16:
+Add move and add waypoint to context menu
+
+Request #17:
+Add edit track and copy trackpoint position to context menu
+
+Request #18:
+Probe for GDAL tools
+
+Request #19:
+Add a diary editor to document maps, tracks and waypoints.
+
+Request #20:
+Add loaded geo data file to title bar
+
+Request #21:
+Add modify flag to title bar
+
+Request #22:
+Ask user to save modified data before it is destroyed.
+
+
+
+--- 2008.03.28 ---
+
+Bug     #4:
+Saving \*gcp with extension failed. Fixed.
+
+Bug     #5:
+Keep selection marker for selected track points when selecting multiple points by mouse click.
+
+Request #6:
+Add start and end timestamp to track list label
+
+Request #7:
+Reset the track counter on clear all and load geo data
+
+Request #8:
+Add scalebar
+
+Request #9:
+Add waypoint projection.
+
+Bug     #10:
+Fixed bad calculation of proximity circle size
+
+
+
+--- 2007.12.11 ---
+
+Request #1:
+Initial release
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

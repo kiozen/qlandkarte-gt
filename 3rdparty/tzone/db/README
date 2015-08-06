@@ -1,0 +1,37 @@
+README for TZ DB
+=================
+
+This directory contains just the tzdata files and parts of the Makefile
+from tzcode. You can download newer versions from
+http://www.iana.org/time-zones (formerly ftp://elsie.nci.nih.gov/pub/)
+
+This data is in the public domain.
+
+To update the database automatically from IANA call "sh update.sh" (you'll
+need rsync for this).
+
+If you want to rebuild the built-in database manually:
+1) drop new zone description files (tzdata*.tar.gz) in the db subdirectory, if
+   some of the new files were not present previously you may need to tweek the
+   Makefile;
+   do not forget to adjust version.txt to reflect the version you just installed
+2) simply call genrcc.sh  in the main directory - it will go into the db
+   directory and rebuild the database files, then it will include them into
+   the zonefiles.qrc/cpp files.
+3) Then call make in the main directory to rebuild the library.
+
+You will need a working shell, make and the zic tool. I recommend doing this
+on a Linux box, since they usually have all these tools installed. With some
+work a MSYS or Cygwin installation might work as well.
+
+Updates
+========
+
+The following releases of tzdata have been installed:
+
+Release Date(*)    Notes
+----    -----      ----
+2011a   2011-02-06 australasia and northamerica
+2010o   2010-12-25 australasia
+2010n   2010-10-31 updates on all continents
+2010?   2010-07-06 initial data

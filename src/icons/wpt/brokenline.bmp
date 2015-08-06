@@ -1,0 +1,4 @@
+#define brokenline_width 5
+#define brokenline_height 5
+static unsigned char brokenline_bits[] = {
+   0x0a, 0x11, 0x04, 0x11, 0x0a};
