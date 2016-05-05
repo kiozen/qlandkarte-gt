@@ -121,6 +121,13 @@ if (UNIX AND NOT WIN32 AND NOT APPLE)
   )
 
   install(
+    DIRECTORY
+      src/icons/hicolor
+    DESTINATION
+      ${DATA_INSTALL_PREFIX}/icons
+  )
+
+  install(
     FILES
       src/icons/qlandkartegt.png
     DESTINATION
