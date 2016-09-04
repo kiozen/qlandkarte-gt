@@ -607,7 +607,7 @@
     </message>
     <message>
         <location filename="../CActions.cpp" line="102"/>
-        <source>Move the map to keep the positon cursor centered.</source>
+        <source>Move the map to keep the position cursor centered.</source>
         <translation>Sposta la mappa per mantenere la posizione del cursore nel centro.</translation>
     </message>
     <message>
@@ -6057,7 +6057,7 @@ riga: %2, colonna %3:
         <translation type="obsolete">Sposta Mappa nella Pos.</translation>
     </message>
     <message>
-        <source>Move the map to keep the positon cursor centered.</source>
+        <source>Move the map to keep the position cursor centered.</source>
         <translation type="obsolete">Sposta la mappa per mantenere la posizione del cursore nel centro.</translation>
     </message>
     <message>

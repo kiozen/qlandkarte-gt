@@ -99,7 +99,7 @@ QObject(parent), parent(parent)
     createAction(tr("ctrl+Del"), ":/icons/iconClear16x16.png", tr("Hide/Show Selection"), "aTrackPurgeSelection", tr("Toggle visibility of the selected track points."));
     //
     createAction(tr("F5"), ":/icons/iconPlayPause16x16.png", tr("&Start / Stop"), "aLiveLog", tr("Start / stop live log recording."));
-    createAction(tr("F6"), ":/icons/iconLock16x16.png", tr("Move Map to &Pos."), "aLockMap", tr("Move the map to keep the positon cursor centered."));
+    createAction(tr("F6"), ":/icons/iconLock16x16.png", tr("Move Map to &Pos."), "aLockMap", tr("Move the map to keep the position cursor centered."));
     createAction(tr("F7"), ":/icons/iconAdd16x16.png", tr("Add &Waypoint"), "aAddWpt", tr("Add a waypoint at current position."));
     //
 

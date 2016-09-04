@@ -408,7 +408,7 @@
         <translation>Créer un nouveau point géographique. La position par défaut sera la position courante.</translation>
     </message>
     <message>
-        <source>Move the map to keep the positon cursor centered.</source>
+        <source>Move the map to keep the position cursor centered.</source>
         <translation>Déplacer la carte pour garder le curseur au centre.</translation>
     </message>
     <message>

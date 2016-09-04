@@ -1482,7 +1482,7 @@ Request #38:
 Optimze DEM interpolation for faster 3D view.
 
 Request #39:
-Add positon bars to profile graph et al
+Add position bars to profile graph et al
 
 Request #40:
 Optimize track render
