@@ -563,7 +563,7 @@
     </message>
     <message>
         <location filename="../CActions.cpp" line="102"/>
-        <source>Move the map to keep the positon cursor centered.</source>
+        <source>Move the map to keep the position cursor centered.</source>
         <translation>Перемещайте карту, удержанием позиции указателя по центру.</translation>
     </message>
     <message>

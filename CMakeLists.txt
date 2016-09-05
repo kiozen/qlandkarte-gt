@@ -50,6 +50,12 @@ if(MSVC)
   set(CMAKE_SHARED_LINKER_FLAGS_RELEASE "${CMAKE_SHARED_LINKER_FLAGS_RELEASE} /LTCG")
 endif(MSVC)
 
+# Use signed chars for all architectures.
+# Some architectures like arm64, powerpc & s390x use unsigned chars by default.
+# This causes the build of 3rdparty/map2rmp/CFileGenerator.cpp to fail with GCC 6.2:
+# <path>/CFileGenerator.cpp:83:1: error: narrowing conversion of '-1' from 'int' to 'char' inside { } [-Wnarrowing]
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fsigned-char")
+
 # where to look first for cmake modules, before ${CMAKE_ROOT}/Modules/ is checked
 set(CMAKE_MODULE_PATH
   ${CMAKE_SOURCE_DIR}/cmake/Modules

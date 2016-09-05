@@ -632,7 +632,7 @@
     </message>
     <message>
         <location filename="../CActions.cpp" line="102"/>
-        <source>Move the map to keep the positon cursor centered.</source>
+        <source>Move the map to keep the position cursor centered.</source>
         <translation>Centrar el mapa en la posición del cursor.</translation>
     </message>
     <message>

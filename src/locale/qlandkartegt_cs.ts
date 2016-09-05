@@ -611,7 +611,7 @@
     </message>
     <message>
         <location filename="../CActions.cpp" line="102"/>
-        <source>Move the map to keep the positon cursor centered.</source>
+        <source>Move the map to keep the position cursor centered.</source>
         <translation>Posunout mapu pro zachování polohy ukazovátka ve středu.</translation>
     </message>
     <message>
@@ -6332,7 +6332,7 @@ line %2, column %3:
         <translation type="obsolete">Karte mit Position bewegen.</translation>
     </message>
     <message>
-        <source>Move the map to keep the positon cursor centered.</source>
+        <source>Move the map to keep the position cursor centered.</source>
         <translation type="obsolete">Um die Position des Mauspfeils mittig zu halten, wird die Karte bewegt.</translation>
     </message>
     <message>
